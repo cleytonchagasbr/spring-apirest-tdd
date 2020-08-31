@@ -1,4 +1,4 @@
-package com.cadastro.user.restservice;
+package com.cadastro.user.restservice.dto;
 
 public class Cadastro {
 	
@@ -6,8 +6,8 @@ public class Cadastro {
 	private String email;
 	private String password; 
 	
-	public Cadastro(long id, String email, String password) {
-		this.id = id;
+	public Cadastro(String email, String password) {
+		this.id = 001;
 		this.email = email;
 		this.password = password;
 	}
