@@ -3,5 +3,5 @@ RESTful Web Service with TDD Junit 5
 
 
 <p align="center">
-  <img width="760" height="600" src="https://github.com/cleytonchagasbr/imgs/blob/master/logo_solidary.svg">
+  <img width="760" height="600" src="https://github.com/cleytonchagasbr/imgs/blob/master/cadastro_apirest.svg">
 </p>
