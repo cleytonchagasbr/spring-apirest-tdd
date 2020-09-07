@@ -1,13 +1,13 @@
-package com.cadastro.user;
+package com.api;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class ApiRestCadastroUsuarioApplication {
+public class CadastroApirestfulApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ApiRestCadastroUsuarioApplication.class, args);
+		SpringApplication.run(CadastroApirestfulApplication.class, args);
 	}
 
 }
