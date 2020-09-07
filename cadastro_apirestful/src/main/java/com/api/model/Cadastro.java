@@ -2,9 +2,7 @@ package com.api.model;
 
 import com.fasterxml.jackson.annotation.JsonProperty;
 
-import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.NoArgsConstructor;
 import lombok.Setter;
 
 public class Cadastro {
@@ -14,9 +12,6 @@ public class Cadastro {
 	@JsonProperty @Getter @Setter private String password;
 	@JsonProperty @Getter @Setter private String type;
 	
-	public Cadastro() {
-		
-	}
 	
 
 }

@@ -8,12 +8,11 @@ import com.api.model.Cadastro;
 @Service
 public class CadastroService {
 	
-	public Cadastro create(Cadastro usuario) {
+	public String create(Cadastro usuario) {
 		
-		Cadastro novoCadastro = new Cadastro();
-		setNovoCadastro(novoCadastro);
+		setNovoCadastro(usuario);
 		
-		return novoCadastro;
+		return "";
 	
 		
 	}
