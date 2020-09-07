@@ -10,14 +10,14 @@ public class CadastroService {
 	
 	public String create(Cadastro usuario) {
 		
-		setNovoCadastro(usuario);
+		sendNewUserForQueue(usuario);
 		
 		return "";
 	
 		
 	}
 	
-	public void setNovoCadastro(Cadastro usuario) {
+	public void sendNewUserForQueue(Cadastro usuario) {
 		
 		
 		
